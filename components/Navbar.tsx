@@ -21,14 +21,14 @@ const Navbar = () => {
   }
 
   return (
-    <nav className={`bg-white bg-opacity-75 dark:bg-[#171F2D] transition-[background-color] duration-500 ease-in-out dark:bg-opacity-75 sticky top-0 ${isMenuOpen ? 'overflow-hidden h-screen' : ''}`}>
+    <nav className={`bg-white bg-opacity-60 backdrop-blur-sm dark:bg-[#121822] transition-[background-color] duration-500 ease-in-out dark:bg-opacity-75 sticky top-0 ${isMenuOpen ? 'overflow-hidden h-screen' : ''}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className={`flex justify-between h-14 ${isMenuOpen ? 'pb-5' : ''}`}>
           <div className="flex items-center">
             <Link href="/" className="overflow-hidden relative inline-block group">
               <span style={{ height: "1.5px" }} className="absolute text-xl font-bold dark:text-white bg-[#4DBBAC] bottom-0 transform origin-right scale-x-0 transition-transform duration-300 group-hover:origin-left group-hover:scale-x-100">FillerText</span>
               <span className="text-xl font-bold  absolute flex w-full left-0 transform origin-right translate-x-full transition-transform duration-300 ease-in-out group-hover:translate-x-0 text-[#4DBBAC]"><HomeIcon /> Home</span>
-              <span className="text-xl font-bold dark:text-white inline-block transition-transform duration-300 ease-in-out group-hover:translate-x-[-200%]">Shuoan</span>
+              <span className="text-xl font-bold dark:text-[#C3C3C3] inline-block transition-transform duration-300 ease-in-out group-hover:translate-x-[-200%]">Shuoan</span>
             </Link>
 
             <div className={`hidden md:flex items-center ${isMenuOpen ? 'opacity-0' : 'opacity-100'}`}>
