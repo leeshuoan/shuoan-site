@@ -9,4 +9,23 @@ html {
 
 body {
   @apply dark:bg-[#171F2D] ;
+  @apply transition-[background-color] duration-500 ease-in-out;
+}
+
+
+::-webkit-scrollbar {
+  @apply w-1.5;
+}
+
+::-webkit-scrollbar-track {
+  @apply dark:bg-[#171F2D];
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-[#367274];
+  @apply rounded-lg;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-[#429790];
 }
