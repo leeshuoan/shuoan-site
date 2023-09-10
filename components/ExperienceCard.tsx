@@ -41,22 +41,22 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
     >
       <div className="px-5 py-2">
         <div className="flex">
-          <div className="text-sm font-semibold text-[#A5A5A5] min-w-[142px] dark:text-opacity-60 dark:text-[#A5A5A5]">
+          <div className="text-sm font-semibold text-[#BCBCBC] min-w-[142px] dark:text-opacity-60 dark:text-[#BCBCBC]">
             {date}
           </div>
-          <div className="border mx-3 border-[#A5A5A5] dark:border-opacity-60 dark:border-[#A5A5A5]"></div>
+          <div className="border mx-3 border-[#BCBCBC] dark:border-opacity-60 dark:border-[#BCBCBC]"></div>
           <div>
             <div className="text-lg font-semibold text-[#3A8A81] dark:text-[#4DB8AC]">
               {title}
             </div>
-            <div className="text-sm font-semibold text-[#A5A5A5] dark:text-opacity-60 dark:text-[#A5A5A5] mb-1">
+            <div className="text-sm font-semibold text-[#BCBCBC] dark:text-opacity-60 dark:text-[#BCBCBC] mb-1">
               {company}
             </div>
             <ul className="list-disc pl-5">
               {content.map((item, index) => (
                 <li
                   key={index}
-                  className="text-sm text-[#656565] dark:text-[#A5A5A5] mt-2"
+                  className="text-sm text-[#4C4C4C] dark:text-[#BCBCBC] mt-2"
                 >
                   {item}
                 </li>
@@ -66,7 +66,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
               {skills.map((skill, index) => (
                 <div
                   key={index}
-                  className="text-xs px-2 py-1 bg-[#3A8A81] bg-opacity-25 text-[#656565] dark:text-[#A5A5A5] rounded-lg m-1 transition-all duration-300"
+                  className="text-xs px-2 py-1 bg-[#3A8A81] bg-opacity-25 text-[#4C4C4C] dark:text-[#BCBCBC] rounded-lg m-1 transition-all duration-300"
                 >
                   {skill}
                 </div>

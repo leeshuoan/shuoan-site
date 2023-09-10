@@ -60,7 +60,7 @@ const About = (): JSX.Element => {
 
     setTimeout(() => {
       setScrollingEnabled(true);
-    }, 1000); 
+    }, 1000);
 
     setCurrentSection(section);
   };
@@ -86,52 +86,46 @@ const About = (): JSX.Element => {
           <div className="mt-10 sticky top-60">
             <div
               onClick={() => scrollToSection("background")}
-              className={`flex items-center cursor-pointer mb-2 ${
-                currentSection === "background"
+              className={`flex items-center cursor-pointer mb-2 ${currentSection === "background"
                   ? "text-black dark:text-white font-semibold"
-                  : "text-[#A5A5A5]"
-              }`}
+                  : "text-[#BCBCBC]"
+                }`}
             >
               <div
-                className={`h-0.5 ${
-                  currentSection === "background"
+                className={`h-0.5 ${currentSection === "background"
                     ? "w-16 dark:bg-white bg-black"
-                    : "w-6 bg-[#A5A5A5]"
-                } mr-2 transition-all duration-300`}
+                    : "w-6 bg-[#BCBCBC]"
+                  } mr-2 transition-all duration-300`}
               ></div>
               <div className="text-md">Background</div>
             </div>
             <div
               onClick={() => scrollToSection("experience")}
-              className={`flex items-center cursor-pointer mb-2 ${
-                currentSection === "experience"
+              className={`flex items-center cursor-pointer mb-2 ${currentSection === "experience"
                   ? "text-black dark:text-white font-semibold"
-                  : "text-[#A5A5A5]"
-              }`}
+                  : "text-[#BCBCBC]"
+                }`}
             >
               <div
-                className={`h-0.5 ${
-                  currentSection === "experience"
+                className={`h-0.5 ${currentSection === "experience"
                     ? "w-16 dark:bg-white bg-black"
-                    : "w-6 bg-[#A5A5A5]"
-                } mr-2 transition-all duration-300`}
+                    : "w-6 bg-[#BCBCBC]"
+                  } mr-2 transition-all duration-300`}
               ></div>
               <div className="text-md">Experience</div>
             </div>
             <div
               onClick={() => scrollToSection("education")}
-              className={`flex items-center cursor-pointer mb-2 ${
-                currentSection === "education"
+              className={`flex items-center cursor-pointer mb-2 ${currentSection === "education"
                   ? "text-black dark:text-white font-semibold"
-                  : "text-[#A5A5A5]"
-              }`}
+                  : "text-[#BCBCBC]"
+                }`}
             >
               <div
-                className={`h-0.5 ${
-                  currentSection === "education"
+                className={`h-0.5 ${currentSection === "education"
                     ? "w-16 dark:bg-white bg-black"
-                    : "w-6 bg-[#A5A5A5]"
-                } mr-2 transition-all duration-300`}
+                    : "w-6 bg-[#BCBCBC]"
+                  } mr-2 transition-all duration-300`}
               ></div>
               <div className="text-md">Education</div>
             </div>
@@ -145,7 +139,7 @@ const About = (): JSX.Element => {
           >
             Background
           </div>
-          <div className="text-md text-[#656565] dark:text-[#A5A5A5] pl-5">
+          <div className="text-md text-[#4C4C4C] dark:text-[#BCBCBC] pl-5">
             I'm currently a Software Engineer Intern at{" "}
             <span className="text-[#6B96C3] font-semibold">Goldman Sachs</span>.
             I primarily build accessible & responsive frontend applications but
@@ -164,7 +158,7 @@ const About = (): JSX.Element => {
             world. Feel free to reach out to me at{" "}
             <Link
               href="mailto:leeshuoan38@gmail..com"
-              className="font-semibold"
+              className="font-semibold hover:text-[#4DBBAC] dark:hover:text-[#4DBBAC]"
             >
               leeshuoan38@gmail.com
             </Link>
@@ -222,31 +216,31 @@ const About = (): JSX.Element => {
           <div className="mb-14 group hover:bg-[#EAEEF2] dark:hover:bg-[#2D333A] hover:shadow-lg rounded-lg overflow-hidden w-full transition-[all] duration-300 ease-in-out">
             <div className="px-5 py-2">
               <div className="flex">
-                <div className="text-md font-semibold text-[#A5A5A5] min-w-[90px] dark:text-opacity-60 dark:text-[#A5A5A5]">
+                <div className="text-md font-semibold text-[#BCBCBC] min-w-[90px] dark:text-opacity-60 dark:text-[#BCBCBC]">
                   2020-2024
                 </div>
-                <div className="border mx-3 border-[#A5A5A5] dark:border-opacity-60 dark:border-[#A5A5A5]"></div>
+                <div className="border mx-3 border-[#BCBCBC] dark:border-opacity-60 dark:border-[#BCBCBC]"></div>
                 <div>
                   <div className="text-lg font-semibold text-[#3A8A81] dark:text-[#4DB8AC]">
                     Singapore Management University
                   </div>
-                  <div className="text-sm font-semibold text-[#A5A5A5] dark:text-opacity-60 dark:text-[#A5A5A5] mb-1">
+                  <div className="text-sm font-semibold text-[#BCBCBC] dark:text-opacity-60 dark:text-[#BCBCBC] mb-1">
                     Bachelor's of Science (BSc) Information Systems
                     <br />
                     Majoring in Digitalization & Cloud Solutions and Business
                     Analytics
                   </div>
-                  <p className="text-sm text-[#656565] dark:text-[#A5A5A5] mt-2">
+                  <p className="text-sm text-[#4C4C4C] dark:text-[#BCBCBC] mt-2">
                     Grade: Magna Cum Laude
                   </p>
                   <ul className="list-disc pl-5">
-                    <li className="text-sm text-[#656565] dark:text-[#A5A5A5] mt-2">
+                    <li className="text-sm text-[#4C4C4C] dark:text-[#BCBCBC] mt-2">
                       SCIS Dean's List AY2021/22
                     </li>
-                    <li className="text-sm text-[#656565] dark:text-[#A5A5A5] mt-1">
+                    <li className="text-sm text-[#4C4C4C] dark:text-[#BCBCBC] mt-1">
                       Ninjavan Code Dojo 2023 | Most Feasible Hack
                     </li>
-                    <li className="text-sm text-[#656565] dark:text-[#A5A5A5] mt-1">
+                    <li className="text-sm text-[#4C4C4C] dark:text-[#BCBCBC] mt-1">
                       Carro x AWS Hackathon 2022 | 8th place
                     </li>
                   </ul>
