@@ -62,7 +62,7 @@ const AuthenticationSystem = () => {
         </p>
         <p className="text-xs text-[#4C4C4C] dark:text-[#BCBCBC] italic">Supported by Ascenda Loyalty</p>
         <p className="text-sm text-[#4C4C4C] dark:text-[#BCBCBC] mt-2">
-          Leveraging AWS Cloud security best practices, this custom authentication service is able to enrol customers and provide account ownership verification. Custom user authentication via a Hosted Login and the SSO of partnered bank's is available and secured with the signing and encryption of JWTs.
+          Leveraging AWS Cloud security best practices, this custom authentication service is able to enrol customers and provide account ownership verification. Custom user authentication via a Hosted Login and the SSO of partnered bank&#39;s is available and secured with the signing and encryption of JWTs.
           Management of user roles and permissions is done through an admin control panel and JWKS Endpoints are included for communication with partner’s backend services
         </p>
         <div className="flex mt-1">

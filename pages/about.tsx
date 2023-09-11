@@ -140,7 +140,7 @@ const About = (): JSX.Element => {
             Background
           </div>
           <div className="text-md text-[#4C4C4C] dark:text-[#BCBCBC] pl-5">
-            I'm currently a Software Engineer Intern at{" "}
+            I&#39;m currently a Software Engineer Intern at{" "}
             <span className="text-[#6B96C3] font-semibold">Goldman Sachs</span>.
             I primarily build accessible & responsive frontend applications but
             am also adept and passionate in DevOps and Solution Architecture.
@@ -150,11 +150,11 @@ const About = (): JSX.Element => {
             With a belief that products do not have to be extravagant; but
             simply functional and intuitive, my passion lies in crafting elegant
             solutions that provide seamless user experiences. As someone who
-            appreciates growth, I'm always keen on learning and embracing new
+            appreciates growth, I&#39;m always keen on learning and embracing new
             technologies.
             <br />
             <br />
-            When I'm not coding, I'm usually rock climbing or travelling the
+            When I&#39;m not coding, I'm usually rock climbing or travelling the
             world. Feel free to reach out to me at{" "}
             <Link
               href="mailto:leeshuoan38@gmail..com"
@@ -225,7 +225,7 @@ const About = (): JSX.Element => {
                     Singapore Management University
                   </div>
                   <div className="text-sm font-semibold text-[#BCBCBC] dark:text-opacity-60 dark:text-[#BCBCBC] mb-1">
-                    Bachelor's of Science (BSc) Information Systems
+                    Bachelor&#39;s of Science (BSc) Information Systems
                     <br />
                     Majoring in Digitalization & Cloud Solutions and Business
                     Analytics
@@ -235,7 +235,7 @@ const About = (): JSX.Element => {
                   </p>
                   <ul className="list-disc pl-5">
                     <li className="text-sm text-[#4C4C4C] dark:text-[#BCBCBC] mt-2">
-                      SCIS Dean's List AY2021/22
+                      SCIS Dean&#39;s List AY2021/22
                     </li>
                     <li className="text-sm text-[#4C4C4C] dark:text-[#BCBCBC] mt-1">
                       Ninjavan Code Dojo 2023 | Most Feasible Hack

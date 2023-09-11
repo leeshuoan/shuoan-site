@@ -21,7 +21,7 @@ export default function Home() {
               I design and build anything from frontend user interfaces to
               technical infrastructures
               <br />
-              Currently, I'm a Software Engineer Intern at{" "}
+              Currently, I&#39;m a Software Engineer Intern at{" "}
               <span className="text-[#6B96C3] font-semibold">
                 Goldman Sachs
               </span>
