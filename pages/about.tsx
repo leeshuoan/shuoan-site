@@ -154,7 +154,7 @@ const About = (): JSX.Element => {
             technologies.
             <br />
             <br />
-            When I&#39;m not coding, I'm usually rock climbing or travelling the
+            When I&#39;m not coding, I&#39;m usually rock climbing or travelling the
             world. Feel free to reach out to me at{" "}
             <Link
               href="mailto:leeshuoan38@gmail..com"
