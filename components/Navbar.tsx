@@ -56,7 +56,7 @@ const Navbar = () => {
             <Link href='https://www.linkedin.com/in/lee-shuoan' target='_blank' className='flex text-[#BCBCBC] rounded-full hover:shadow-lg hover:text-white p-0.5 hover:bg-[#0A66C2]'>
               <LinkedInIcon className=" items-center h-6 w-6 m-0.5 " />
             </Link>
-            <Link href='https://www.github.com/leeshuoan' target='_blank' className='flex text-[#BCBCBC] rounded-full hover:shadow-lg p-0.5 hover:text-black hover:bg-[#EAEEF2] dark:hover:bg-[#30363D] dark:hover:text-white'>
+            <Link href='https://www.github.com/leeshuoan' target='_blank' className='flex text-[#BCBCBC] rounded-full hover:shadow-lg p-0.5 hover:text-black hover:bg-[#F5F7F9] dark:hover:bg-[#30363D] dark:hover:text-white'>
               <GithubIcon className="items-center h-6 w-6 m-0.5 " />
             </Link>
             <div onClick={toggleDarkMode} className={`${isDarkMode ? 'hover:text-[#D69C11] hover:bg-[#D69C11]' : 'flex hover:text-[#243F6F] hover:bg-[#243F6F]'} rounded-full hover:cursor-pointer hover:shadow-lg p-0.5 text-[#BCBCBC]  hover:bg-opacity-20`}>

@@ -213,7 +213,7 @@ const About = (): JSX.Element => {
           >
             Education
           </div>
-          <div className="mb-14 group hover:bg-[#EAEEF2] dark:hover:bg-[#2D333A] hover:shadow-lg rounded-lg overflow-hidden w-full transition-[all] duration-300 ease-in-out">
+          <div className="mb-14 group hover:bg-[#F5F7F9] dark:hover:bg-[#2D333A] hover:shadow-lg rounded-lg overflow-hidden w-full transition-[all] duration-300 ease-in-out">
             <div className="px-5 py-2">
               <div className="flex">
                 <div className="text-md font-semibold text-[#BCBCBC] min-w-[90px] dark:text-opacity-60 dark:text-[#BCBCBC]">

@@ -19,7 +19,7 @@ const projects = () => {
         <CorporatePassApplication />
 
       </div >
-      <p className="text-md text-center text-[#4C4C4C] dark:text-[#BCBCBC] mb-20">View more projects at my <a href="https://github.com/leeshuoan" className="font-semibold hover:text-[#4DBBAC] dark:hover:text-[#4DBBAC]">Github</a>!</p>
+      <p className="text-md text-center text-[#4C4C4C] dark:text-[#BCBCBC] mb-20">View more projects at my <a href="https://github.com/leeshuoan" target='_blank' className="font-semibold hover:text-[#4DBBAC] dark:hover:text-[#4DBBAC]">Github</a>!</p>
     </>
   );
 };

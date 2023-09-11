@@ -35,7 +35,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
         selectedExperience != cardKey && selectedExperience != null
           ? "opacity-60"
           : "opacity-100"
-      } hover:bg-[#EAEEF2] dark:hover:bg-[#2D333A] hover:shadow-lg rounded-lg overflow-hidden w-full transition-[all] duration-300 ease-in-out`}
+      } hover:bg-[#F5F7F9] dark:hover:bg-[#2D333A] hover:shadow-lg rounded-lg overflow-hidden w-full transition-[all] duration-300 ease-in-out`}
       onMouseEnter={handleCardMouseEnter}
       onMouseLeave={handleCardMouseLeave}
     >

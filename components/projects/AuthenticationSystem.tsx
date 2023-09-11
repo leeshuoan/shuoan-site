@@ -57,7 +57,7 @@ const AuthenticationSystem = () => {
       )}
 
       <div className="col-span-6 mt-16">
-        <p className="text-2xl dark:text-white">
+        <p className="text-xl dark:text-white">
           Authentication System
         </p>
         <p className="text-xs text-[#4C4C4C] dark:text-[#BCBCBC] italic">Supported by Ascenda Loyalty</p>
