@@ -34,7 +34,7 @@ const RedditTwitterPipeline = () => {
           <div
             key={index}
             className={`transition-all duration-500 ${hoveredIndex === index ? 'w-full' : hoveredIndex !== null ? ' w-1/12' : 'w-1/3'
-              } h-72 w-full flex justify-center bg-white border py-2 rounded-lg cursor-pointer shadow-md`}
+              } h-72 flex justify-center bg-white border py-2 rounded-lg cursor-pointer shadow-md`}
             onMouseEnter={() => handleHover(index)}
             onMouseLeave={() => setHoveredIndex(null)}
             onClick={() => openModal(image)}
