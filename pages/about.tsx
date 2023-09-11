@@ -87,14 +87,14 @@ const About = (): JSX.Element => {
             <div
               onClick={() => scrollToSection("background")}
               className={`flex items-center cursor-pointer mb-2 ${currentSection === "background"
-                  ? "text-black dark:text-white font-semibold"
-                  : "text-[#BCBCBC]"
+                ? "text-black dark:text-white font-semibold"
+                : "text-[#BCBCBC]"
                 }`}
             >
               <div
                 className={`h-0.5 ${currentSection === "background"
-                    ? "w-16 dark:bg-white bg-black"
-                    : "w-6 bg-[#BCBCBC]"
+                  ? "w-16 dark:bg-white bg-black"
+                  : "w-6 bg-[#BCBCBC]"
                   } mr-2 transition-all duration-300`}
               ></div>
               <div className="text-md">Background</div>
@@ -102,14 +102,14 @@ const About = (): JSX.Element => {
             <div
               onClick={() => scrollToSection("experience")}
               className={`flex items-center cursor-pointer mb-2 ${currentSection === "experience"
-                  ? "text-black dark:text-white font-semibold"
-                  : "text-[#BCBCBC]"
+                ? "text-black dark:text-white font-semibold"
+                : "text-[#BCBCBC]"
                 }`}
             >
               <div
                 className={`h-0.5 ${currentSection === "experience"
-                    ? "w-16 dark:bg-white bg-black"
-                    : "w-6 bg-[#BCBCBC]"
+                  ? "w-16 dark:bg-white bg-black"
+                  : "w-6 bg-[#BCBCBC]"
                   } mr-2 transition-all duration-300`}
               ></div>
               <div className="text-md">Experience</div>
@@ -117,14 +117,14 @@ const About = (): JSX.Element => {
             <div
               onClick={() => scrollToSection("education")}
               className={`flex items-center cursor-pointer mb-2 ${currentSection === "education"
-                  ? "text-black dark:text-white font-semibold"
-                  : "text-[#BCBCBC]"
+                ? "text-black dark:text-white font-semibold"
+                : "text-[#BCBCBC]"
                 }`}
             >
               <div
                 className={`h-0.5 ${currentSection === "education"
-                    ? "w-16 dark:bg-white bg-black"
-                    : "w-6 bg-[#BCBCBC]"
+                  ? "w-16 dark:bg-white bg-black"
+                  : "w-6 bg-[#BCBCBC]"
                   } mr-2 transition-all duration-300`}
               ></div>
               <div className="text-md">Education</div>

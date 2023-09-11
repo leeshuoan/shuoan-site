@@ -50,7 +50,7 @@ const Navbar = () => {
           </div>
 
           <div className={`hidden md:flex items-center gap-1 ${isMenuOpen ? 'opacity-0' : 'opacity-100'}`}>
-            <Link href='https://www.instagram.com/lee_shuoan' target='_blank' className='flex text-[#BCBCBC] rounded-full hover:shadow-lg hover:text-white p-0.5 hover:bg-gradient-to-br from-[#fdf497] via-[#fd5949] to-[#285AEB] via-[#d6249f]'>
+            <Link href='https://www.instagram.com/sa._.climbs' target='_blank' className='flex text-[#BCBCBC] rounded-full hover:shadow-lg hover:text-white p-0.5 hover:bg-gradient-to-br from-[#fdf497] via-[#fd5949] to-[#285AEB] via-[#d6249f]'>
               <InstagramIcon className="items-center h-6 w-6 m-0.5 " />
             </Link>
             <Link href='https://www.linkedin.com/in/lee-shuoan' target='_blank' className='flex text-[#BCBCBC] rounded-full hover:shadow-lg hover:text-white p-0.5 hover:bg-[#0A66C2]'>
