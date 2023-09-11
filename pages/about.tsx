@@ -88,13 +88,13 @@ const About = (): JSX.Element => {
               onClick={() => scrollToSection("background")}
               className={`flex items-center cursor-pointer mb-2 ${currentSection === "background"
                 ? "text-black dark:text-white font-semibold"
-                : "text-[#BCBCBC]"
+                : "text-[#8D8D8D]"
                 }`}
             >
               <div
                 className={`h-0.5 ${currentSection === "background"
                   ? "w-16 dark:bg-white bg-black"
-                  : "w-6 bg-[#BCBCBC]"
+                  : "w-6 bg-[#8D8D8D]"
                   } mr-2 transition-all duration-300`}
               ></div>
               <div className="text-md">Background</div>
@@ -103,13 +103,13 @@ const About = (): JSX.Element => {
               onClick={() => scrollToSection("experience")}
               className={`flex items-center cursor-pointer mb-2 ${currentSection === "experience"
                 ? "text-black dark:text-white font-semibold"
-                : "text-[#BCBCBC]"
+                : "text-[#8D8D8D]"
                 }`}
             >
               <div
                 className={`h-0.5 ${currentSection === "experience"
                   ? "w-16 dark:bg-white bg-black"
-                  : "w-6 bg-[#BCBCBC]"
+                  : "w-6 bg-[#8D8D8D]"
                   } mr-2 transition-all duration-300`}
               ></div>
               <div className="text-md">Experience</div>
@@ -118,13 +118,13 @@ const About = (): JSX.Element => {
               onClick={() => scrollToSection("education")}
               className={`flex items-center cursor-pointer mb-2 ${currentSection === "education"
                 ? "text-black dark:text-white font-semibold"
-                : "text-[#BCBCBC]"
+                : "text-[#8D8D8D]"
                 }`}
             >
               <div
                 className={`h-0.5 ${currentSection === "education"
                   ? "w-16 dark:bg-white bg-black"
-                  : "w-6 bg-[#BCBCBC]"
+                  : "w-6 bg-[#8D8D8D]"
                   } mr-2 transition-all duration-300`}
               ></div>
               <div className="text-md">Education</div>
@@ -139,7 +139,7 @@ const About = (): JSX.Element => {
           >
             Background
           </div>
-          <div className="text-md text-[#4C4C4C] dark:text-[#BCBCBC] pl-5">
+          <div className="text-md text-[#4C4C4C] dark:text-[#8D8D8D] pl-5">
             I&#39;m currently a Software Engineer Intern at{" "}
             <span className="text-[#6B96C3] font-semibold">Goldman Sachs</span>.
             I primarily build accessible & responsive frontend applications but
@@ -216,31 +216,31 @@ const About = (): JSX.Element => {
           <div className="mb-14 group hover:bg-[#F5F7F9] dark:hover:bg-[#2D333A] hover:shadow-lg rounded-lg overflow-hidden w-full transition-[all] duration-300 ease-in-out">
             <div className="px-5 py-2">
               <div className="flex">
-                <div className="text-md font-semibold text-[#BCBCBC] min-w-[90px] dark:text-opacity-60 dark:text-[#BCBCBC]">
+                <div className="text-sm font-semibold text-[#8D8D8D] min-w-[80px] dark:text-opacity-60 dark:text-[#8D8D8D]">
                   2020-2024
                 </div>
-                <div className="border mx-3 border-[#BCBCBC] dark:border-opacity-60 dark:border-[#BCBCBC]"></div>
+                <div className="border mx-3 border-[#8D8D8D] dark:border-opacity-60 dark:border-[#8D8D8D]"></div>
                 <div>
                   <div className="text-lg font-semibold text-[#3A8A81] dark:text-[#4DB8AC]">
                     Singapore Management University
                   </div>
-                  <div className="text-sm font-semibold text-[#BCBCBC] dark:text-opacity-60 dark:text-[#BCBCBC] mb-1">
+                  <div className="text-sm font-semibold text-[#8D8D8D] dark:text-opacity-60 dark:text-[#8D8D8D] mb-1">
                     Bachelor&#39;s of Science (BSc) Information Systems
                     <br />
                     Majoring in Digitalization & Cloud Solutions and Business
                     Analytics
                   </div>
-                  <p className="text-sm text-[#4C4C4C] dark:text-[#BCBCBC] mt-2">
+                  <p className="text-sm text-[#4C4C4C] dark:text-[#8D8D8D] mt-2">
                     Grade: Magna Cum Laude
                   </p>
                   <ul className="list-disc pl-5">
-                    <li className="text-sm text-[#4C4C4C] dark:text-[#BCBCBC] mt-2">
+                    <li className="text-sm text-[#4C4C4C] dark:text-[#8D8D8D] mt-2">
                       SCIS Dean&#39;s List AY2021/22
                     </li>
-                    <li className="text-sm text-[#4C4C4C] dark:text-[#BCBCBC] mt-1">
+                    <li className="text-sm text-[#4C4C4C] dark:text-[#8D8D8D] mt-1">
                       Ninjavan Code Dojo 2023 | Most Feasible Hack
                     </li>
-                    <li className="text-sm text-[#4C4C4C] dark:text-[#BCBCBC] mt-1">
+                    <li className="text-sm text-[#4C4C4C] dark:text-[#8D8D8D] mt-1">
                       Carro x AWS Hackathon 2022 | 8th place
                     </li>
                   </ul>

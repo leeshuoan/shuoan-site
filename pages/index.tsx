@@ -11,13 +11,13 @@ export default function Home() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="h-[calc(100vh-3.5rem)] pb-16 flex items-center">
           <div className="">
-            <p className="text-3xl dark:text-[#BCBCBC]">LEE SHUOAN</p>
+            <p className="text-3xl dark:text-[#8D8D8D]">LEE SHUOAN</p>
             <p className="text-6xl font-bold bg-gradient-to-tl from-[#4DBBAC] via-[#5EA9BF] via-[#64A0C1] to-[#6B96C3] text-transparent bg-clip-text">
               Software Engineer
               <br />
               Cloud & DevOps Enthusiast
             </p>
-            <p className="text-md text-[#4C4C4C] dark:text-[#BCBCBC]">
+            <p className="text-md text-[#4C4C4C] dark:text-[#8D8D8D]">
               I design and build anything from frontend user interfaces to
               technical infrastructures
               <br />
@@ -29,21 +29,21 @@ export default function Home() {
             <div className="mt-7 text-md">
               <Link
                 href="/about"
-                className="relative px-2 p-1 text-[#4C4C4C] dark:text-[#BCBCBC] dark:hover:text-black font-semibold group transition-all duration-300 ease-in-out border border-[#4C4C4C] hover:text-white "
+                className="relative px-2 p-1 text-[#4C4C4C] dark:text-[#8D8D8D] dark:hover:text-black font-semibold group transition-all duration-300 ease-in-out border border-[#4C4C4C] hover:text-white "
               >
                 <span className="relative z-[1]">About Me</span>
                 <span className="absolute inset-0 w-0 bg-[#5EA9BF] group-hover:w-full transition-all"></span>
               </Link>
               <Link
                 href="/projects"
-                className="relative px-2 p-1 text-[#4C4C4C] dark:text-[#BCBCBC] dark:hover:text-black font-semibold group transition-all duration-300 ease-in-out border border-[#4C4C4C] hover:text-white "
+                className="relative px-2 p-1 text-[#4C4C4C] dark:text-[#8D8D8D] dark:hover:text-black font-semibold group transition-all duration-300 ease-in-out border border-[#4C4C4C] hover:text-white "
               >
                 <span className="relative z-[1]">Projects</span>
                 <span className="absolute inset-0 w-0 bg-[#5EA9BF] group-hover:w-full transition-all"></span>
               </Link>
               <Link
                 href="/blog"
-                className="relative px-2 p-1 text-[#4C4C4C] dark:text-[#BCBCBC] dark:hover:text-black font-semibold group transition-all duration-300 ease-in-out border border-[#4C4C4C] hover:text-white "
+                className="relative px-2 p-1 text-[#4C4C4C] dark:text-[#8D8D8D] dark:hover:text-black font-semibold group transition-all duration-300 ease-in-out border border-[#4C4C4C] hover:text-white "
               >
                 <span className="relative z-[1]">Blog Posts</span>
                 <span className="absolute inset-0 w-0 bg-[#5EA9BF] group-hover:w-full transition-all"></span>

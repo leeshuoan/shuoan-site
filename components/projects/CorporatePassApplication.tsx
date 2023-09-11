@@ -59,16 +59,16 @@ const CorporatePassApplication = () => {
         <p className="text-xl dark:text-white">
           Corporate Pass Application
         </p>
-        <p className="text-xs text-[#4C4C4C] dark:text-[#BCBCBC] italic">Supported by Singapore Sports School</p>
-        <p className="text-sm text-[#4C4C4C] dark:text-[#BCBCBC] mt-2">
+        <p className="text-xs text-[#4C4C4C] dark:text-[#8D8D8D] italic">Supported by Singapore Sports School</p>
+        <p className="text-sm text-[#4C4C4C] dark:text-[#8D8D8D] mt-2">
           A corporate pass application system that allows for staff to apply for corporate passes. The system manages corporate pass bookings and is able to generate booking confirmation and email reminders emails. It is also able to dynamically generate PDF invoices for each corporate pass booking. 
         </p>
         <div className="flex mt-1">
-          <div className="text-xs px-2 py-1 bg-[#3A8A81] bg-opacity-25 text-[#4C4C4C] dark:text-[#BCBCBC] rounded-lg m-1 ml-0  transition-all duration-300">Spring</div>
-          <div className="text-xs px-2 py-1 bg-[#3A8A81] bg-opacity-25 text-[#4C4C4C] dark:text-[#BCBCBC] rounded-lg m-1 transition-all duration-300">React</div>
+          <div className="text-xs px-2 py-1 bg-[#3A8A81] bg-opacity-25 text-[#4C4C4C] dark:text-[#8D8D8D] rounded-lg m-1 ml-0  transition-all duration-300">Spring</div>
+          <div className="text-xs px-2 py-1 bg-[#3A8A81] bg-opacity-25 text-[#4C4C4C] dark:text-[#8D8D8D] rounded-lg m-1 transition-all duration-300">React</div>
         </div>
         <p className="text-sm font-semibold mt-3 ">
-          <a href='https://github.com/leeshuoan/corporate-pass-application' target="_blank" className="flex items-center text-[#4C4C4C] dark:text-[#BCBCBC] hover:text-[#4DBBAC] dark:hover:text-[#4DBBAC]" >
+          <a href='https://github.com/leeshuoan/corporate-pass-application' target="_blank" className="flex items-center text-[#4C4C4C] dark:text-[#8D8D8D] hover:text-[#4DBBAC] dark:hover:text-[#4DBBAC]" >
             <GithubIcon className='h-8 w-8' />Github Repository
           </a>
         </p>

@@ -60,16 +60,16 @@ const RedditTwitterPipeline = () => {
         <p className="text-xl dark:text-white">
           Reddit Twitter Big Data Pipeline
         </p>
-        <p className="text-sm text-[#4C4C4C] dark:text-[#BCBCBC]">
+        <p className="text-sm text-[#4C4C4C] dark:text-[#8D8D8D]">
           This big data pipeline extracts social media content from platforms such as reddit & twitter, allowing users to glean invaluable insights across a wide range of topics. The dashboard identifies the social movers who shape public sentiment and offers a comprehensive overview of the sentiments surrounding those subjects.
         </p>
         <div className="flex mt-1">
-          <div className="text-xs px-2 py-1 bg-[#3A8A81] bg-opacity-25 text-[#4C4C4C] dark:text-[#BCBCBC] rounded-lg m-1 ml-0  transition-all duration-300">AWS</div>
-          <div className="text-xs px-2 py-1 bg-[#3A8A81] bg-opacity-25 text-[#4C4C4C] dark:text-[#BCBCBC] rounded-lg m-1 transition-all duration-300">neo4j</div>
-          <div className="text-xs px-2 py-1 bg-[#3A8A81] bg-opacity-25 text-[#4C4C4C] dark:text-[#BCBCBC] rounded-lg m-1 transition-all duration-300">Terraform</div>
+          <div className="text-xs px-2 py-1 bg-[#3A8A81] bg-opacity-25 text-[#4C4C4C] dark:text-[#8D8D8D] rounded-lg m-1 ml-0  transition-all duration-300">AWS</div>
+          <div className="text-xs px-2 py-1 bg-[#3A8A81] bg-opacity-25 text-[#4C4C4C] dark:text-[#8D8D8D] rounded-lg m-1 transition-all duration-300">neo4j</div>
+          <div className="text-xs px-2 py-1 bg-[#3A8A81] bg-opacity-25 text-[#4C4C4C] dark:text-[#8D8D8D] rounded-lg m-1 transition-all duration-300">Terraform</div>
         </div>
         <p className="text-sm font-semibold mt-3 ">
-          <a href='https://github.com/leeshuoan/reddit-twitter-big-data-pipeline' target="_blank" className="flex items-center text-[#4C4C4C] dark:text-[#BCBCBC] hover:text-[#4DBBAC] dark:hover:text-[#4DBBAC]" >
+          <a href='https://github.com/leeshuoan/reddit-twitter-big-data-pipeline' target="_blank" className="flex items-center text-[#4C4C4C] dark:text-[#8D8D8D] hover:text-[#4DBBAC] dark:hover:text-[#4DBBAC]" >
             <GithubIcon className='h-8 w-8' />Github Repository
           </a>
         </p>
