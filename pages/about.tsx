@@ -216,7 +216,7 @@ const About = (): JSX.Element => {
           <div className="mb-14 group hover:bg-[#F5F7F9] dark:hover:bg-[#2D333A] hover:shadow-lg rounded-lg overflow-hidden w-full transition-[all] duration-300 ease-in-out">
             <div className="px-3 md:px-5 py-2">
               <div className="flex">
-                <div className="text-sm font-semibold text-[#8D8D8D] min-w-[80px] dark:text-opacity-60 dark:text-[#8D8D8D]">
+                <div className="text-sm font-semibold text-[#8D8D8D] min-w-[5rem] dark:text-opacity-60 dark:text-[#8D8D8D]">
                   2020-2024
                 </div>
                 <div className="border mx-3 border-[#8D8D8D] dark:border-opacity-60 dark:border-[#8D8D8D]"></div>
