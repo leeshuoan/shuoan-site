@@ -34,7 +34,7 @@ const blog = () => {
           </div>
         </a>
 
-        <p className="text-md text-center text-[#4C4C4C] dark:text-[#8D8D8D] mt-10 mb-20">I&#39;m working on writing more, hopefully :&#34;&#34;&#34;</p>
+        <p className="text-base text-center text-[#4C4C4C] dark:text-[#8D8D8D] mt-10 mb-20">I&#39;m working on writing more, hopefully :&#34;&#34;&#34;</p>
       </div>
     </>
   )

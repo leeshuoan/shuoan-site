@@ -17,7 +17,7 @@ export default function Home() {
               <br />
               Cloud & DevOps Enthusiast
             </p>
-            <p className="text-sm md:text-md text-[#4C4C4C] dark:text-[#8D8D8D]">
+            <p className="text-sm md:text-base text-[#4C4C4C] dark:text-[#8D8D8D]">
               I design and build anything from frontend user interfaces to
               technical infrastructures
               <br />
@@ -26,7 +26,7 @@ export default function Home() {
                 Goldman Sachs
               </span>
             </p>
-            <div className="mt-7 text-sm md:text-md">
+            <div className="mt-7 text-sm md:text-base">
               <Link
                 href="/about"
                 className="relative px-2 p-1 text-[#4C4C4C] dark:text-[#8D8D8D] dark:hover:text-black font-semibold group transition-all duration-300 ease-in-out border border-[#4C4C4C] hover:text-white "

@@ -77,13 +77,13 @@ const About = (): JSX.Element => {
       >
         <div className="col-span-3">
           <div className="sticky top-24">
-            <div className="text-4xl dark:text-white">Lee Shuoan</div>
-            <div className="text-md dark:text-white">
+            <div className="text-2xl md:text-4xl dark:text-white">Lee Shuoan</div>
+            <div className="text-sm md:text-base dark:text-white">
               Software Engineer Intern at Goldman Sachs
             </div>
           </div>
 
-          <div className="mt-10 sticky top-60">
+          <div className="hidden md:block mt-10 sticky top-60">
             <div
               onClick={() => scrollToSection("background")}
               className={`flex items-center cursor-pointer mb-2 ${currentSection === "background"
@@ -97,7 +97,7 @@ const About = (): JSX.Element => {
                   : "w-6 bg-[#8D8D8D]"
                   } mr-2 transition-all duration-300`}
               ></div>
-              <div className="text-md">Background</div>
+              <div className="text-base">Background</div>
             </div>
             <div
               onClick={() => scrollToSection("experience")}
@@ -112,7 +112,7 @@ const About = (): JSX.Element => {
                   : "w-6 bg-[#8D8D8D]"
                   } mr-2 transition-all duration-300`}
               ></div>
-              <div className="text-md">Experience</div>
+              <div className="text-base">Experience</div>
             </div>
             <div
               onClick={() => scrollToSection("education")}
@@ -127,7 +127,7 @@ const About = (): JSX.Element => {
                   : "w-6 bg-[#8D8D8D]"
                   } mr-2 transition-all duration-300`}
               ></div>
-              <div className="text-md">Education</div>
+              <div className="text-base">Education</div>
             </div>
           </div>
         </div>
@@ -139,7 +139,7 @@ const About = (): JSX.Element => {
           >
             Background
           </div>
-          <div className="text-md text-[#4C4C4C] dark:text-[#8D8D8D] pl-5">
+          <div className="text-base text-[#4C4C4C] dark:text-[#8D8D8D] pl-5">
             I&#39;m currently a Software Engineer Intern at{" "}
             <span className="text-[#6B96C3] font-semibold">Goldman Sachs</span>.
             I primarily build accessible & responsive frontend applications but
