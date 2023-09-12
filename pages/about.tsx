@@ -73,9 +73,9 @@ const About = (): JSX.Element => {
 
       <div
         id="about"
-        className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-12 mt-10 mb-2"
+        className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 md:grid md:grid-cols-12 mt-10 mb-2"
       >
-        <div className="col-span-3">
+        <div className="hidden md:block md:col-span-3">
           <div className="sticky top-24">
             <div className="text-2xl md:text-4xl dark:text-white">Lee Shuoan</div>
             <div className="text-sm md:text-base dark:text-white">
@@ -132,14 +132,14 @@ const About = (): JSX.Element => {
           </div>
         </div>
 
-        <div className="ml-20 col-span-9">
+        <div className="md:ml-20 md:col-span-9">
           <div
             id="background"
-            className="section text-2xl dark:text-white pl-5 mb-1"
+            className="section text-2xl dark:text-white px-3 md:pl-5 md:mb-1"
           >
             Background
           </div>
-          <div className="text-base text-[#4C4C4C] dark:text-[#8D8D8D] pl-5">
+          <div className="text-base text-[#4C4C4C] dark:text-[#8D8D8D] px-3 md:pl-5">
             I&#39;m currently a Software Engineer Intern at{" "}
             <span className="text-[#6B96C3] font-semibold">Goldman Sachs</span>.
             I primarily build accessible & responsive frontend applications but
@@ -167,7 +167,7 @@ const About = (): JSX.Element => {
 
           <div
             id="experience"
-            className="section mt-14 text-2xl dark:text-white pl-5 mb-1"
+            className="section mt-14 text-2xl dark:text-white px-3 md:pl-5 mb-1"
           >
             Experience
           </div>
@@ -209,12 +209,12 @@ const About = (): JSX.Element => {
 
           <div
             id="education"
-            className="section text-2xl dark:text-white mt-10 px-5 mb-1"
+            className="section text-2xl dark:text-white mt-10 px-3 md:px-5 mb-1"
           >
             Education
           </div>
           <div className="mb-14 group hover:bg-[#F5F7F9] dark:hover:bg-[#2D333A] hover:shadow-lg rounded-lg overflow-hidden w-full transition-[all] duration-300 ease-in-out">
-            <div className="px-5 py-2">
+            <div className="px-3 md:px-5 py-2">
               <div className="flex">
                 <div className="text-sm font-semibold text-[#8D8D8D] min-w-[80px] dark:text-opacity-60 dark:text-[#8D8D8D]">
                   2020-2024

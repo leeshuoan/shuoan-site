@@ -39,9 +39,9 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
       onMouseEnter={handleCardMouseEnter}
       onMouseLeave={handleCardMouseLeave}
     >
-      <div className="px-5 py-2">
+      <div className="px-3 md:px-5 py-2">
         <div className="flex">
-          <div className="text-sm font-semibold text-[#8D8D8D] min-w-[150px] dark:text-opacity-60 dark:text-[#8D8D8D]">
+          <div className="text-sm font-semibold text-[#8D8D8D] min-w-[75px] md:min-w-[150px] dark:text-opacity-60 dark:text-[#8D8D8D]">
             {date}
           </div>
           <div className="border mx-3 border-[#8D8D8D] dark:border-opacity-60 dark:border-[#8D8D8D]"></div>
