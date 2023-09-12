@@ -41,7 +41,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
     >
       <div className="px-3 md:px-5 py-2">
         <div className="flex">
-          <div className="text-sm font-semibold text-[#8D8D8D] min-w-[5rem] md:min-w-[9.25rem] dark:text-opacity-60 dark:text-[#8D8D8D]">
+          <div className="text-sm font-semibold text-[#8D8D8D] min-w-[5.5rem] md:min-w-[9.25rem] dark:text-opacity-60 dark:text-[#8D8D8D]">
             {date}
           </div>
           <div className="border mx-3 border-[#8D8D8D] dark:border-opacity-60 dark:border-[#8D8D8D]"></div>
