@@ -42,7 +42,7 @@ const RedditTwitterPipeline = () => {
       >
         {images.map((image, index) => (
           <SwiperSlide key={index} className="flex justify-center">
-            <img className="object-scale-down h-full" src={image} />
+            <img className={`object-scale-down h-full ${index == 2 ? 'bg-white': ''}`} src={image} />
           </SwiperSlide>
         ))}
       </Swiper>
