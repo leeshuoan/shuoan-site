@@ -1,6 +1,11 @@
 import { useState } from "react";
 import { GithubIcon } from "@/components/SVGIcons";
 import { CloseIcon } from '@/components/SVGIcons';
+import SwiperCore, { Pagination, Autoplay } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper-bundle.css'
+
+SwiperCore.use([Pagination, Autoplay]);
 
 const RedditTwitterPipeline = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
@@ -28,7 +33,21 @@ const RedditTwitterPipeline = () => {
 
   return (
     <>
-      <div className="col-span-6 flex gap-2">
+      <Swiper
+        spaceBetween={10}
+        slidesPerView={1}
+        pagination={{ clickable: true }}
+        autoplay={{ delay: 3000 }}
+        className="sm:hidden h-72"
+      >
+        {images.map((image, index) => (
+          <SwiperSlide key={index} className="flex justify-center">
+            <img className="object-scale-down h-full" src={image} />
+          </SwiperSlide>
+        ))}
+      </Swiper>
+
+      <div className="hidden sm:flex col-span-6 gap-2">
 
         {images.map((image, index) => (
           <div
@@ -57,7 +76,7 @@ const RedditTwitterPipeline = () => {
       )}
 
       <div className="col-span-6">
-        <p className="text-xl dark:text-white">
+        <p className="text-xl mt-3 md:mt-0 dark:text-white">
           Reddit Twitter Big Data Pipeline
         </p>
         <p className="text-sm text-[#4C4C4C] dark:text-[#BFBFBF]">
