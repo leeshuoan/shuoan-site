@@ -12,7 +12,7 @@ const projects = () => {
 
       <div
         id="projects"
-        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:grid sm:grid-cols-12 mt-10 gap-8 mb-16"
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 mb-16"
       >
         <RedditTwitterPipeline />
         <AuthenticationSystem />
