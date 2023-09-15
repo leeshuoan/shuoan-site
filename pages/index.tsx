@@ -8,7 +8,7 @@ export default function Home() {
         <title>Home | Lee Shuoan</title>
       </Head>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 animate-fadeIn">
         <div className="h-[calc(100vh-3.5rem)] pb-16 flex items-center">
           <div>
             <p className="text-2xl md:text-3xl dark:text-[#BFBFBF]">LEE SHUOAN</p>

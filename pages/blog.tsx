@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 const blog = () => {
   return (
@@ -11,7 +12,7 @@ const blog = () => {
         id="blog"
         className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8  mt-10 gap-8 mb-16"
       >
-        <a href="https://medium.com/@shuoan/scaling-machine-learning-with-ray-io-and-aws-34e7a00f90b0" target='_blank'>
+        <Link href="https://medium.com/@shuoan/scaling-machine-learning-with-ray-io-and-aws-34e7a00f90b0" target='_blank'>
           <div className="group px-3 py-3 hover:bg-[#F5F7F9] dark:hover:bg-[#2D333A] hover:shadow-md rounded-lg overflow-hidden w-full transition-[all] duration-300 ease-in-out">
             <div className="flex">
               <img src='images/aws-ray-cluster.svg' className='object-fill w-1/3 md:w-1/4 lg:w-1/6' />
@@ -32,7 +33,7 @@ const blog = () => {
               </div>
             </div>
           </div>
-        </a>
+        </Link>
 
         <p className="text-base text-center text-[#4C4C4C] dark:text-[#BFBFBF] mt-10 mb-20">I&#39;m working on writing more, hopefully :&#34;&#34;&#34;</p>
       </div>

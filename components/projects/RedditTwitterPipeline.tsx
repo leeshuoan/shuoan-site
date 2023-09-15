@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useState } from "react";
 import { GithubIcon } from "@/components/SVGIcons";
 import { CloseIcon } from '@/components/SVGIcons';
@@ -85,9 +86,9 @@ const RedditTwitterPipeline = () => {
             <div className="text-xs px-2 py-1 bg-[#3A8A81] bg-opacity-25 text-[#4C4C4C] dark:text-[#BFBFBF] rounded-lg m-1 transition-all duration-300">Terraform</div>
           </div>
           <p className="text-sm font-semibold mt-3 ">
-            <a href='https://github.com/leeshuoan/reddit-twitter-big-data-pipeline' target="_blank" className="flex items-center text-[#4C4C4C] dark:text-[#BFBFBF] hover:text-[#4DBBAC] dark:hover:text-[#4DBBAC]" >
+            <Link href='https://github.com/leeshuoan/reddit-twitter-big-data-pipeline' target="_blank" className="flex items-center text-[#4C4C4C] dark:text-[#BFBFBF] hover:text-[#4DBBAC] dark:hover:text-[#4DBBAC]" >
               <GithubIcon className='h-8 w-8' />Github Repository
-            </a>
+            </Link>
           </p>
         </div>
       </div>

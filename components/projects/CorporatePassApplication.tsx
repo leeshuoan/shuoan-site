@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Link from 'next/link'
 import { GithubIcon, CloseIcon } from "@/components/SVGIcons";
 import SwiperCore, { Pagination, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -84,9 +85,9 @@ const CorporatePassApplication = () => {
             <div className="text-xs px-2 py-1 bg-[#3A8A81] bg-opacity-25 text-[#4C4C4C] dark:text-[#BFBFBF] rounded-lg m-1 transition-all duration-300">React</div>
           </div>
           <p className="text-sm font-semibold mt-3 ">
-            <a href='https://github.com/leeshuoan/corporate-pass-application' target="_blank" className="flex items-center text-[#4C4C4C] dark:text-[#BFBFBF] hover:text-[#4DBBAC] dark:hover:text-[#4DBBAC]" >
+            <Link href='https://github.com/leeshuoan/corporate-pass-application' target="_blank" className="flex items-center text-[#4C4C4C] dark:text-[#BFBFBF] hover:text-[#4DBBAC] dark:hover:text-[#4DBBAC]" >
               <GithubIcon className='h-8 w-8' />Github Repository
-            </a>
+            </Link>
           </p>
         </div>
       </div>
