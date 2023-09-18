@@ -15,5 +15,9 @@ module.exports = {
       },
     },
   },
+  variants: {
+    textColor: ['dark'],
+    backgroundColor: ['dark'],
+  },
   plugins: [],
 }
