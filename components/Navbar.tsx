@@ -94,7 +94,7 @@ const Navbar = () => {
                 <button
                   ref={toggleButtonRef}
                   onClick={toggleMenu}
-                  className="text-xl font-bold px-2 py-1 dark:text-[#B4B4B4]"
+                  className="text-xl font-bold px-2 py-1 text-black dark:text-[#B4B4B4]"
                 >
                   <FaBars />
                 </button>
