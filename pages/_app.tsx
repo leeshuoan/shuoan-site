@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
 } else {
   document.documentElement.classList.remove('dark')
 }
-}, []}
+}, [])
 
   return (
     <ThemeProvider enableSystem={true} attribute="class">
