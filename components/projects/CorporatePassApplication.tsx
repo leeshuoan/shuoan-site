@@ -73,7 +73,7 @@ const CorporatePassApplication = () => {
           </div>
         )}
         <div className="col-span-6 mt-3 md:mt-0">
-          <p className="text-xl dark:text-white">
+          <p className="text-xl text-black` dark:text-white">
             Corporate Pass Application
           </p>
           <p className="text-xs text-[#4C4C4C] dark:text-[#B4B4B4] italic">Supported by Singapore Sports School</p>

@@ -74,7 +74,7 @@ const RedditTwitterPipeline = () => {
           </div>
         )}
         <div className="col-span-6 mt-3 md:mt-0">
-          <p className="text-xl dark:text-white">
+          <p className="text-xl text-black dark:text-white">
             Reddit Twitter Big Data Pipeline
           </p>
           <p className="text-sm text-[#4C4C4C] dark:text-[#B4B4B4]">

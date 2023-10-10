@@ -135,7 +135,7 @@ const About = (): JSX.Element => {
         <div className="md:ml-20 md:col-span-9">
           <div
             id="background"
-            className="section text-2xl dark:text-white px-3 md:pl-5 md:mb-1"
+            className="section text-black text-2xl dark:text-white px-3 md:pl-5 md:mb-1"
           >
             Background
           </div>
@@ -167,7 +167,7 @@ const About = (): JSX.Element => {
 
           <div
             id="experience"
-            className="section mt-14 text-2xl dark:text-white px-3 md:pl-5 mb-1"
+            className="section text-black mt-14 text-2xl dark:text-white px-3 md:pl-5 mb-1"
           >
             Experience
           </div>
@@ -209,7 +209,7 @@ const About = (): JSX.Element => {
 
           <div
             id="education"
-            className="section text-2xl dark:text-white mt-10 px-3 md:px-5 mb-1"
+            className="section text-black text-2xl dark:text-white mt-10 px-3 md:px-5 mb-1"
           >
             Education
           </div>
