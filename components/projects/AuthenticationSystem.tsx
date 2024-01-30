@@ -77,21 +77,21 @@ const AuthenticationSystem = () => {
           <p className="text-xl text-black dark:text-white">
             Authentication System
           </p>
-          <p className="text-xs text-[#4C4C4C] dark:text-[#B4B4B4] italic">Supported by Ascenda Loyalty</p>
-          <p className="text-sm text-[#4C4C4C] dark:text-[#B4B4B4] mt-2">
+          <p className="text-xs text-[#4C4C4C] dark:text-[#BCBCBC] italic">Supported by Ascenda Loyalty</p>
+          <p className="text-sm text-[#4C4C4C] dark:text-[#BCBCBC] mt-2">
             Leveraging AWS Cloud security best practices, this custom authentication service is able to enrol customers and provide account ownership verification. Custom user authentication via a Hosted Login and the SSO of partnered bank&#39;s is available and secured with the signing and encryption of JWTs.
             Management of user roles and permissions is done through an admin control panel and JWKS Endpoints are included for communication with partner’s backend services
           </p>
           <div className="flex mt-1">
-            <div className="text-xs px-2 py-1 bg-[#3A8A81] bg-opacity-25 text-[#4C4C4C] dark:text-[#B4B4B4] rounded-lg m-1 ml-0  transition-all duration-300">AWS</div>
-            <div className="text-xs px-2 py-1 bg-[#3A8A81] bg-opacity-25 text-[#4C4C4C] dark:text-[#B4B4B4] rounded-lg m-1 transition-all duration-300">Vue.js</div>
-            <div className="text-xs px-2 py-1 bg-[#3A8A81] bg-opacity-25 text-[#4C4C4C] dark:text-[#B4B4B4] rounded-lg m-1 transition-all duration-300">Spring</div>
+            <div className="text-xs px-2 py-1 bg-[#3A8A81] bg-opacity-25 text-[#4C4C4C] dark:text-[#BCBCBC] rounded-lg m-1 ml-0  transition-all duration-300">AWS</div>
+            <div className="text-xs px-2 py-1 bg-[#3A8A81] bg-opacity-25 text-[#4C4C4C] dark:text-[#BCBCBC] rounded-lg m-1 transition-all duration-300">Vue.js</div>
+            <div className="text-xs px-2 py-1 bg-[#3A8A81] bg-opacity-25 text-[#4C4C4C] dark:text-[#BCBCBC] rounded-lg m-1 transition-all duration-300">Spring</div>
           </div>
           <p className="text-sm font-semibold mt-3 ">
-            <Link href='https://github.com/leeshuoan/authentication-system' target="_blank" className="flex items-center text-[#4C4C4C] dark:text-[#B4B4B4] hover:text-[#4DBBAC] dark:hover:text-[#4DBBAC]" >
+            <Link href='https://github.com/leeshuoan/authentication-system' target="_blank" className="flex items-center text-[#4C4C4C] dark:text-[#BCBCBC] hover:text-[#4DBBAC] dark:hover:text-[#4DBBAC]" >
               <GithubIcon className='h-8 w-8' />Github Repository
             </Link>
-            <Link href='documents/authentication-system.pdf' target="_blank" className="flex items-center mt-1 ml-1 text-[#4C4C4C] dark:text-[#B4B4B4] hover:text-[#4DBBAC] dark:hover:text-[#4DBBAC]" >
+            <Link href='documents/authentication-system.pdf' target="_blank" className="flex items-center mt-1 ml-1 text-[#4C4C4C] dark:text-[#BCBCBC] hover:text-[#4DBBAC] dark:hover:text-[#4DBBAC]" >
               <FaFilePdf className='h-6 w-6 mr-1' />Technical Documentation
             </Link>
           </p>
