@@ -53,23 +53,23 @@ const Navbar = () => {
           <div className={`flex justify-between h-14`}>
             <div className="flex items-center">
               <Link href="/" className="overflow-hidden relative inline-block group">
-                <span style={{ height: "1.5px" }} className="absolute text-xl font-bold dark:text-white bg-[#4DBBAC] bottom-0 transform origin-right scale-x-0 transition-transform duration-300 group-hover:origin-left group-hover:scale-x-100">FillerText</span>
-                <span className="text-xl font-bold  absolute flex w-full left-0 transform origin-right translate-x-full transition-transform duration-300 ease-in-out group-hover:translate-x-0 text-[#4DBBAC]"><HomeIcon /> Home</span>
+                <span style={{ height: "1.5px" }} className="absolute text-xl font-bold dark:text-white bg-shuoan-link bottom-0 transform origin-right scale-x-0 transition-transform duration-300 group-hover:origin-left group-hover:scale-x-100">FillerText</span>
+                <span className="text-xl font-bold  absolute flex w-full left-0 transform origin-right translate-x-full transition-transform duration-300 ease-in-out group-hover:translate-x-0 text-shuoan-link"><HomeIcon /> Home</span>
                 <span className="text-xl font-bold text-black dark:text-white inline-block transition-transform duration-300 ease-in-out group-hover:translate-x-[-200%]">Shuoan</span>
               </Link>
 
               <div className={`hidden sm:flex items-center`}>
                 <div className="ml-8 flex it items-center gap-4">
-                  <Link href="/about" className='relative group text-[#939393] dark:hover:text-[#4DBBAC] hover:text-[#4DB8AC]'>
-                    <span style={{ height: "1.5px" }} className="absolute w-full  rounded-md bg-[#4DBBAC] bottom-0 left-0 origin-right transform scale-x-0 transition-transform duration-300 ease-in-out  group-hover:origin-left group-hover:scale-x-100"></span>
+                  <Link href="/about" className='relative group text-shuoan-gray dark:hover:text-shuoan-link hover:text-shuoan-link'>
+                    <span style={{ height: "1.5px" }} className="absolute w-full  rounded-md bg-shuoan-link bottom-0 left-0 origin-right transform scale-x-0 transition-transform duration-300 ease-in-out  group-hover:origin-left group-hover:scale-x-100"></span>
                     About
                   </Link>
-                  <Link href="/projects" className=' relative group text-[#939393] dark:hover:text-[#4DBBAC] hover:text-[#4DB8AC]'>
-                    <span style={{ height: "1.5px" }} className="absolute w-full  rounded-md bg-[#4DBBAC] bottom-0 left-0 origin-right transform scale-x-0 transition-transform duration-300 ease-in-out  group-hover:origin-left group-hover:scale-x-100"></span>
+                  <Link href="/projects" className=' relative group text-shuoan-gray dark:hover:text-shuoan-link hover:text-shuoan-link'>
+                    <span style={{ height: "1.5px" }} className="absolute w-full  rounded-md bg-shuoan-link bottom-0 left-0 origin-right transform scale-x-0 transition-transform duration-300 ease-in-out  group-hover:origin-left group-hover:scale-x-100"></span>
                     Projects
                   </Link>
-                  <Link href="/blog" className='relative group text-[#939393] dark:hover:text-[#4DBBAC] hover:text-[#4DB8AC]'>
-                    <span style={{ height: "1.5px" }} className="absolute w-full  rounded-md bg-[#4DBBAC] bottom-0 left-0 origin-right transform scale-x-0 transition-transform duration-300 ease-in-out  group-hover:origin-left group-hover:scale-x-100"></span>
+                  <Link href="/blog" className='relative group text-shuoan-gray dark:hover:text-shuoan-link hover:text-shuoan-link'>
+                    <span style={{ height: "1.5px" }} className="absolute w-full  rounded-md bg-shuoan-link bottom-0 left-0 origin-right transform scale-x-0 transition-transform duration-300 ease-in-out  group-hover:origin-left group-hover:scale-x-100"></span>
                     Blog
                   </Link>
                 </div>
@@ -77,16 +77,16 @@ const Navbar = () => {
             </div>
 
             <div className={`flex items-center gap-1`}>
-              <Link href='https://www.instagram.com/sa._.climbs' target='_blank' className='hidden sm:flex text-[#939393] rounded-full hover:shadow-lg hover:text-white p-0.5 hover:bg-gradient-to-br from-[#fdf497] via-[#fd5949] to-[#285AEB] via-[#d6249f]'>
+              <Link href='https://www.instagram.com/sa._.climbs' target='_blank' className='hidden sm:flex text-shuoan-gray rounded-full hover:shadow-lg hover:text-white p-0.5 hover:bg-gradient-to-br from-[#fdf497] via-[#fd5949] to-[#285AEB] via-[#d6249f]'>
                 <InstagramIcon className="items-center h-6 w-6 m-0.5 " />
               </Link>
-              <Link href='https://www.linkedin.com/in/lee-shuoan' target='_blank' className='hidden sm:flex text-[#939393] rounded-full hover:shadow-lg hover:text-white p-0.5 hover:bg-[#0A66C2]'>
+              <Link href='https://www.linkedin.com/in/lee-shuoan' target='_blank' className='hidden sm:flex text-shuoan-gray rounded-full hover:shadow-lg hover:text-white p-0.5 hover:bg-[#0A66C2]'>
                 <LinkedInIcon className=" items-center h-6 w-6 m-0.5 " />
               </Link>
-              <Link href='https://www.github.com/leeshuoan' target='_blank' className='hidden sm:flex text-[#939393] rounded-full hover:shadow-lg p-0.5 hover:text-black hover:bg-[#F5F7F9] dark:hover:bg-[#30363D] dark:hover:text-white'>
+              <Link href='https://www.github.com/leeshuoan' target='_blank' className='hidden sm:flex text-shuoan-gray rounded-full hover:shadow-lg p-0.5 hover:text-black hover:bg-[#F5F7F9] dark:hover:bg-[#30363D] dark:hover:text-white'>
                 <GithubIcon className="items-center h-6 w-6 m-0.5 " />
               </Link>
-              <div onClick={toggleDarkMode} className={`${isDarkMode ? 'hover:text-[#D69C11] hover:bg-[#D69C11]' : 'flex hover:text-[#243F6F] hover:bg-[#243F6F]'} rounded-full hover:cursor-pointer hover:shadow-lg p-0.5 text-[#939393]  hover:bg-opacity-20`}>
+              <div onClick={toggleDarkMode} className={`${isDarkMode ? 'hover:text-[#D69C11] hover:bg-[#D69C11]' : 'flex hover:text-[#243F6F] hover:bg-[#243F6F]'} rounded-full hover:cursor-pointer hover:shadow-lg p-0.5 text-shuoan-gray  hover:bg-opacity-20`}>
                 {isDarkMode ? <FaSun className='items-center m-1.5' /> : <FaMoon className='items-center m-1.5' />}
               </div>
 
@@ -94,7 +94,7 @@ const Navbar = () => {
                 <button
                   ref={toggleButtonRef}
                   onClick={toggleMenu}
-                  className="text-xl font-bold px-2 py-1 text-black dark:text-[#BCBCBC]"
+                  className="text-xl font-bold px-2 py-1 text-black dark:text-shuoan-dark"
                 >
                   <FaBars />
                 </button>

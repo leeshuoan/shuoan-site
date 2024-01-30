@@ -17,25 +17,25 @@ const blog = () => {
             <div className="flex">
               <img src='images/aws-ray-cluster.svg' className='object-fill w-1/3 md:w-1/4 lg:w-1/6' />
               <div className='w-2/3 ml-3 md:w-3/4 lg:w-5/6'>
-                <div className="text-xl font-semibold text-[#4C4C4C] dark:text-[#BCBCBC] group-hover:text-[#3A8A81] group-hover:dark:text-[#4DB8AC]">
+                <div className="text-xl font-semibold text-shuoan-light dark:text-shuoan-dark group-hover:text-shuoan-green group-hover:dark:text-shuoan-link">
                   Scaling Machine Learning with Ray.io and AWS
                 </div>
-                <div className="text-xs italic text-[#4C4C4C] dark:text-[#BCBCBC]">
+                <div className="text-xs italic text-shuoan-light dark:text-shuoan-dark">
                   Jan 27 2023 | 14 min read
                 </div>
-                <p className="hidden sm:block text-sm text-[#4C4C4C] dark:text-[#BCBCBC] mt-2">
+                <p className="hidden sm:block text-sm text-shuoan-light dark:text-shuoan-dark mt-2">
                   A guide to set up a basic distributed ML cluster and run it on the cloud to run your Machine Learning Applications
                 </p>
                 <div className='flex'>
-                  <div className="text-xs px-2 py-1 bg-[#3A8A81] bg-opacity-25 text-[#4C4C4C] dark:text-[#BCBCBC] rounded-lg mt-2 mr-1">AWS</div>
-                  <div className="text-xs px-2 py-1 bg-[#3A8A81] bg-opacity-25 text-[#4C4C4C] dark:text-[#BCBCBC] rounded-lg mt-2 mr-1">Distributed Computing</div>
+                  <div className="text-xs px-2 py-1 bg-shuoan-green bg-opacity-25 text-shuoan-light dark:text-shuoan-dark rounded-lg mt-2 mr-1">AWS</div>
+                  <div className="text-xs px-2 py-1 bg-shuoan-green bg-opacity-25 text-shuoan-light dark:text-shuoan-dark rounded-lg mt-2 mr-1">Distributed Computing</div>
                 </div>
               </div>
             </div>
           </div>
         </Link>
 
-        <p className="text-base text-center text-[#4C4C4C] dark:text-[#BCBCBC] mt-10 mb-20">I&#39;m working on writing more, hopefully :&#34;&#34;&#34;</p>
+        <p className="text-base text-center text-shuoan-light dark:text-shuoan-dark mt-10 mb-20">I&#39;m working on writing more, hopefully :&#34;&#34;&#34;</p>
       </div>
     </>
   )
