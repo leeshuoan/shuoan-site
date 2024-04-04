@@ -81,7 +81,7 @@ const About = (): JSX.Element => {
         id="about"
         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 md:grid md:grid-cols-12 mt-10 mb-2"
       >
-        <div className="hidden md:block md:col-span-3">
+        <div className="hidden md:block md:col-span-2">
           <div className="sticky top-24">
             <div className="text-2xl md:text-4xl text-black dark:text-white">
               Lee Shuoan
@@ -146,7 +146,7 @@ const About = (): JSX.Element => {
           </div>
         </div>
 
-        <div className="md:ml-20 md:col-span-9">
+        <div className="md:ml-20 md:col-span-10">
           <div
             id="background"
             className="section text-black text-2xl dark:text-white px-3 md:pl-5 md:mb-1"
