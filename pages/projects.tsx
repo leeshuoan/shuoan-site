@@ -1,6 +1,7 @@
 import RedditTwitterPipeline from "@/components/projects/RedditTwitterPipeline";
 import AuthenticationSystem from "@/components/projects/AuthenticationSystem";
 import CorporatePassApplication from "@/components/projects/CorporatePassApplication";
+import RoadAccidentDashboard from "@/components/projects/RoadAccidentDashboard";
 import Head from "next/head";
 
 const projects = () => {
@@ -17,6 +18,7 @@ const projects = () => {
         <RedditTwitterPipeline />
         <AuthenticationSystem />
         <CorporatePassApplication />
+        <RoadAccidentDashboard />
 
       </div >
       <p className="text-base text-center text-shuoan-light dark:text-shuoan-dark mb-20">View more projects at my <a href="https://github.com/leeshuoan" target='_blank' className="font-semibold hover:text-shuoan-link dark:hover:text-shuoan-link">Github</a>!</p>

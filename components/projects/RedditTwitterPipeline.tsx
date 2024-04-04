@@ -49,12 +49,12 @@ const RedditTwitterPipeline = () => {
       </Swiper>
 
       <div className="md:grid md:grid-cols-12 gap-8 ">
-        <div className="hidden sm:flex col-span-6 gap-2">
+        <div className="hidden sm:flex col-span-8 gap-2">
           {images.map((image, index) => (
             <div
               key={index}
               className={`transition-all duration-500 ${hoveredIndex === index ? 'w-full' : hoveredIndex !== null ? ' w-1/12' : 'w-1/3'
-                } h-72 flex justify-center bg-white border py-2 rounded-lg cursor-pointer shadow-md`}
+                } h-96 flex justify-center bg-white border py-2 rounded-lg cursor-pointer shadow-md`}
               onMouseEnter={() => handleHover(index)}
               onMouseLeave={() => setHoveredIndex(null)}
               onClick={() => openModal(image)}
@@ -73,7 +73,7 @@ const RedditTwitterPipeline = () => {
             </div>
           </div>
         )}
-        <div className="col-span-6 mt-3 md:mt-0">
+        <div className="col-span-4 mt-3 md:mt-0">
           <p className="text-xl text-black dark:text-white">
             Reddit Twitter Big Data Pipeline
           </p>

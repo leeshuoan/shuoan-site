@@ -1,13 +1,19 @@
 import React, { useState, useEffect, useCallback } from "react";
 import ExperienceCard from "@/components/ExperienceCard";
-import { ExperienceContext } from "@/constants/constants";
+import EducationCard from "@/components/EducationCard";
+import { ExperienceContext, EducationContext } from "@/constants/constants";
 import Head from "next/head";
 import Link from "next/link";
 
 const About = (): JSX.Element => {
   const [currentSection, setCurrentSection] = useState("background");
   const [scrollingEnabled, setScrollingEnabled] = useState(true);
-  const [selectedExperience, setSelectedExperience] = useState(null as number | null);
+  const [selectedExperience, setSelectedExperience] = useState(
+    null as number | null
+  );
+  const [selectedEducation, setSelectedEducation] = useState(
+    null as number | null
+  );
 
   const handleScroll = useCallback(() => {
     if (!scrollingEnabled) {
@@ -73,59 +79,67 @@ const About = (): JSX.Element => {
 
       <div
         id="about"
-        className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 md:grid md:grid-cols-12 mt-10 mb-2"
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 md:grid md:grid-cols-12 mt-10 mb-2"
       >
         <div className="hidden md:block md:col-span-3">
           <div className="sticky top-24">
-            <div className="text-2xl md:text-4xl text-black dark:text-white">Lee Shuoan</div>
+            <div className="text-2xl md:text-4xl text-black dark:text-white">
+              Lee Shuoan
+            </div>
             <div className="text-sm md:text-base text-black dark:text-white">
-              Software Engineer Intern at Goldman Sachs
+              Software Engineer at Goldman Sachs
             </div>
           </div>
 
           <div className="hidden md:block mt-10 sticky top-60">
             <div
               onClick={() => scrollToSection("background")}
-              className={`flex items-center cursor-pointer mb-2 ${currentSection === "background"
-                ? "text-black dark:text-white font-semibold"
-                : "text-shuoan-gray"
-                }`}
+              className={`flex items-center cursor-pointer mb-2 ${
+                currentSection === "background"
+                  ? "text-black dark:text-white font-semibold"
+                  : "text-shuoan-gray"
+              }`}
             >
               <div
-                className={`h-0.5 ${currentSection === "background"
-                  ? "w-16 dark:bg-white bg-black"
-                  : "w-6 bg-shuoan-gray"
-                  } mr-2 transition-all duration-300`}
+                className={`h-0.5 ${
+                  currentSection === "background"
+                    ? "w-16 dark:bg-white bg-black"
+                    : "w-6 bg-shuoan-gray"
+                } mr-2 transition-all duration-300`}
               ></div>
               <div className="text-base">Background</div>
             </div>
             <div
               onClick={() => scrollToSection("experience")}
-              className={`flex items-center cursor-pointer mb-2 ${currentSection === "experience"
-                ? "text-black dark:text-white font-semibold"
-                : "text-shuoan-gray"
-                }`}
+              className={`flex items-center cursor-pointer mb-2 ${
+                currentSection === "experience"
+                  ? "text-black dark:text-white font-semibold"
+                  : "text-shuoan-gray"
+              }`}
             >
               <div
-                className={`h-0.5 ${currentSection === "experience"
-                  ? "w-16 dark:bg-white bg-black"
-                  : "w-6 bg-shuoan-gray"
-                  } mr-2 transition-all duration-300`}
+                className={`h-0.5 ${
+                  currentSection === "experience"
+                    ? "w-16 dark:bg-white bg-black"
+                    : "w-6 bg-shuoan-gray"
+                } mr-2 transition-all duration-300`}
               ></div>
               <div className="text-base">Experience</div>
             </div>
             <div
               onClick={() => scrollToSection("education")}
-              className={`flex items-center cursor-pointer mb-2 ${currentSection === "education"
-                ? "text-black dark:text-white font-semibold"
-                : "text-shuoan-gray"
-                }`}
+              className={`flex items-center cursor-pointer mb-2 ${
+                currentSection === "education"
+                  ? "text-black dark:text-white font-semibold"
+                  : "text-shuoan-gray"
+              }`}
             >
               <div
-                className={`h-0.5 ${currentSection === "education"
-                  ? "w-16 dark:bg-white bg-black"
-                  : "w-6 bg-shuoan-gray"
-                  } mr-2 transition-all duration-300`}
+                className={`h-0.5 ${
+                  currentSection === "education"
+                    ? "w-16 dark:bg-white bg-black"
+                    : "w-6 bg-shuoan-gray"
+                } mr-2 transition-all duration-300`}
               ></div>
               <div className="text-base">Education</div>
             </div>
@@ -140,7 +154,7 @@ const About = (): JSX.Element => {
             Background
           </div>
           <div className="text-base text-shuoan-light dark:text-shuoan-dark px-3 md:pl-5">
-            I&#39;m currently a Software Engineer Intern at{" "}
+            I&#39;m currently a Software Engineer at{" "}
             <span className="text-[#6B96C3] font-semibold">Goldman Sachs</span>.
             I primarily build accessible & responsive frontend applications but
             am also adept and passionate in DevOps and Solution Architecture.
@@ -150,12 +164,12 @@ const About = (): JSX.Element => {
             With a belief that products do not have to be extravagant; but
             simply functional and intuitive, my passion lies in crafting elegant
             solutions that provide seamless user experiences. As someone who
-            appreciates growth, I&#39;m always keen on learning and embracing new
-            technologies.
+            appreciates growth, I&#39;m always keen on learning and embracing
+            new technologies.
             <br />
             <br />
-            When I&#39;m not coding, I&#39;m usually rock climbing or travelling the
-            world. Feel free to reach out to me at{" "}
+            When I&#39;m not coding, I&#39;m usually rock climbing or travelling
+            the world. Feel free to reach out to me at{" "}
             <Link
               href="mailto:leeshuoan38@gmail..com"
               className="font-semibold hover:text-shuoan-link dark:hover:text-shuoan-link"
@@ -213,41 +227,35 @@ const About = (): JSX.Element => {
           >
             Education
           </div>
-          <div className="mb-14 group hover:bg-[#F5F7F9] dark:hover:bg-[#2D333A] hover:shadow-lg rounded-lg overflow-hidden w-full transition-[all] duration-300 ease-in-out">
-            <div className="px-3 md:px-5 py-2">
-              <div className="flex">
-                <div className="text-sm font-semibold text-shuoan-gray min-w-[5.6rem] dark:text-opacity-60 dark:text-shuoan-dark">
-                  2020-2024
-                </div>
-                <div className="border mx-3 border-shuoan-gray dark:border-opacity-60 dark:border-shuoan-gray"></div>
-                <div>
-                  <div className="text-lg font-semibold text-shuoan-green dark:text-shuoan-link">
-                    Singapore Management University
-                  </div>
-                  <div className="text-sm font-semibold text-shuoan-gray dark:text-opacity-60 dark:text-shuoan-dark mb-1">
-                    Bachelor&#39;s of Science (BSc) Information Systems
-                    <br />
-                    Majoring in Digitalization & Cloud Solutions and Business
-                    Analytics
-                  </div>
-                  <p className="text-sm text-shuoan-light dark:text-shuoan-dark mt-2">
-                    Grade: Magna Cum Laude
-                  </p>
-                  <ul className="list-disc pl-5">
-                    <li className="text-sm text-shuoan-light dark:text-shuoan-dark mt-2">
-                      SCIS Dean&#39;s List AY2021/22
-                    </li>
-                    <li className="text-sm text-shuoan-light dark:text-shuoan-dark mt-1">
-                      Ninjavan Code Dojo 2023 | Most Feasible Hack
-                    </li>
-                    <li className="text-sm text-shuoan-light dark:text-shuoan-dark mt-1">
-                      Carro x AWS Hackathon 2022 | 8th place
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+            <EducationContext.Provider
+              value={{ selectedEducation, setSelectedEducation }}
+            >
+              <EducationCard
+                cardKey={0}
+                institution="Singapore Management University"
+                date="2020-2024"
+                degree="Bachelor's of Science (BSc) Information Systems"
+                majors={[
+                  "Digitalization & Cloud Solutions",
+                  "Business Analytics",
+                ]}
+                grade="Magna Cum Laude"
+                achievements={[
+                  "SCIS Dean's List AY2021/22",
+                  "Ninjavan Code Dojo 2023 | Most Feasible Hack",
+                  "Carro x AWS Hackathon 2022 | 8th place",
+                ]}
+              />
+              <EducationCard
+                cardKey={1}
+                institution="Sungkyunkwan University"
+                date="AUG 2023 - DEC 2023"
+                degree="International Student Exchange Programme"
+                majors={["Data Science"]}
+                grade="4.00/4.50"
+                achievements={[]}
+              />
+            </EducationContext.Provider>
         </div>
       </div>
     </>

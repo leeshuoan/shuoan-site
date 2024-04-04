@@ -1,13 +1,14 @@
 import { useState } from "react";
-import Link from 'next/link'
+import Link from "next/link";
 import { GithubIcon, CloseIcon } from "@/components/SVGIcons";
+import { FaGlobe } from 'react-icons/fa';
 import SwiperCore, { Pagination, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css'
 
 SwiperCore.use([Pagination, Autoplay]);
 
-const CorporatePassApplication = () => {
+const RoadAccidentDashboard = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const [modalVisible, setModalVisible] = useState(false);
   const [modalImageSrc, setModalImageSrc] = useState("");
@@ -26,9 +27,9 @@ const CorporatePassApplication = () => {
   };
 
   const images = [
-    '/images/corporate-pass-application-1.svg',
-    '/images/corporate-pass-application-2.svg',
-    '/images/corporate-pass-application-3.svg'
+    '/images/road-accident-dashboard-1.png',
+    '/images/road-accident-dashboard-2.png',
+    '/images/road-accident-dashboard-3.png',
   ]
 
   return (
@@ -74,19 +75,23 @@ const CorporatePassApplication = () => {
         )}
         <div className="col-span-4 mt-3 md:mt-0">
           <p className="text-xl text-black dark:text-white">
-            Corporate Pass Application
+            Road Accident Dashboard
           </p>
-          <p className="text-xs text-shuoan-light dark:text-shuoan-dark italic">Supported by Singapore Sports School</p>
+          <p className="text-xs text-shuoan-light dark:text-shuoan-dark italic flex">Heavily Inspired by&nbsp;<Link href={"https://www.tomtom.com/traffic-index/singapore-traffic/"} target="_blank" className="flex items-center font-semibold text-shuoan-light dark:text-shuoan-dark hover:text-shuoan-link dark:hover:text-shuoan-link" >tomtom Traffic Index</Link></p>
           <p className="text-sm text-shuoan-light dark:text-shuoan-dark mt-2">
-            A corporate pass application system that allows for staff to apply for corporate passes. The system manages corporate pass bookings and is able to generate booking confirmation and email reminders emails. It is also able to dynamically generate PDF invoices for each corporate pass booking.
+            This website provides a real time dashbaord of road accidents in Singapore, allowing users to analyse accident patterns by location and time of day. Accidents statistics have also been analysed providing valuable insight into accident patterns. Public transport coverage by bus and train services are also presented for user analysis. 
           </p>
           <div className="flex mt-1">
-            <div className="text-xs px-2 py-1 bg-shuoan-green bg-opacity-25 text-shuoan-light dark:text-shuoan-dark rounded-lg m-1 ml-0  transition-all duration-300">Spring</div>
-            <div className="text-xs px-2 py-1 bg-shuoan-green bg-opacity-25 text-shuoan-light dark:text-shuoan-dark rounded-lg m-1 transition-all duration-300">React</div>
+            <div className="text-xs px-2 py-1 bg-shuoan-green bg-opacity-25 text-shuoan-light dark:text-shuoan-dark rounded-lg m-1 ml-0  transition-all duration-300">AWS</div>
+            <div className="text-xs px-2 py-1 bg-shuoan-green bg-opacity-25 text-shuoan-light dark:text-shuoan-dark rounded-lg m-1 transition-all duration-300">React.js</div>
+            <div className="text-xs px-2 py-1 bg-shuoan-green bg-opacity-25 text-shuoan-light dark:text-shuoan-dark rounded-lg m-1 transition-all duration-300">Tableau</div>
           </div>
           <p className="text-sm font-semibold mt-3 ">
-            <Link href='https://github.com/leeshuoan/corporate-pass-application' target="_blank" className="flex items-center text-shuoan-light dark:text-shuoan-dark hover:text-shuoan-link dark:hover:text-shuoan-link" >
+            <Link href='https://github.com/leeshuoan/road-accidents-dashboard' target="_blank" className="flex items-center text-shuoan-light dark:text-shuoan-dark hover:text-shuoan-link dark:hover:text-shuoan-link" >
               <GithubIcon className='h-8 w-8' />Github Repository
+            </Link>
+            <Link href='https://visual-analytics.shuoan.dev/' target="_blank" className="flex items-center mt-1 ml-1 text-shuoan-light dark:text-shuoan-dark hover:text-shuoan-link dark:hover:text-shuoan-link" >
+                <FaGlobe className='h-6 w-6 pr-1 mr-1' />Website
             </Link>
           </p>
         </div>
@@ -95,4 +100,4 @@ const CorporatePassApplication = () => {
   )
 }
 
-export default CorporatePassApplication
+export default RoadAccidentDashboard
