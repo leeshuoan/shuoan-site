@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Raleway", sans-serif;
+  font-feature-settings: "lnum" 1;
+}
+
+body {
+  @apply bg-white;
+  @apply dark:bg-[#141B25];
+  @apply transition-[background-color] duration-500 ease-in-out;
+}
+
+::-webkit-scrollbar {
+  @apply w-1.5;
+}
+
+::-webkit-scrollbar-track {
+  @apply dark:bg-[#141B25];
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-[#367274];
+  @apply rounded-lg;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-[#429790];
+}
