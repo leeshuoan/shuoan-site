@@ -200,7 +200,7 @@ const About = (): JSX.Element => {
             />
             <ExperienceCard
               title="Software Engineer Intern"
-              cardKey={0}
+              cardKey={1}
               company="Goldman Sachs • Global Investment Research"
               date="MAY 2023 - JUL 2023"
               content={[
@@ -210,7 +210,7 @@ const About = (): JSX.Element => {
               skills={["AWS", "Java", "React", "Terraform"]}
             />
             <ExperienceCard
-              cardKey={1}
+              cardKey={2}
               title="Research Assistant"
               company="Singapore Management University"
               date="AUG 2022 - SEP 2022"
@@ -220,7 +220,7 @@ const About = (): JSX.Element => {
               skills={["AWS", "Python"]}
             />
             <ExperienceCard
-              cardKey={2}
+              cardKey={3}
               title="Credit Risk Analyst Intern"
               company="OCBC Bank • Risk Portfolio Management"
               date="MAY 2022 - AUG 2022"
