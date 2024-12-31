@@ -195,6 +195,9 @@ const About = (): JSX.Element => {
               date="JUN 2024 - PRESENT"
               content={[
                 "Maintaining and building the tools used by research analysts globally to write and publish research insights",
+                "Played a key role in migrating a legacy calculation engine service, built on Slang and SecDB, to Python-based AWS Lambda functions, ensuring improved scalability, maintainability, and performance",
+                "Streamlined DevOps workflows by structuring GitLab pipelines to generate and transform OpenAPI specification YAML files into Kong declarative configurations",
+                "Involved in diverse Java development tasks, including creating new services, resolving production bugs, and upgrading Spring versions using OpenRewrite to enhance code quality and maintainability",
               ]}
               skills={["AWS", "Java", "React", "Terraform"]}
             />
@@ -237,36 +240,36 @@ const About = (): JSX.Element => {
           >
             Education
           </div>
-            <EducationContext.Provider
-              value={{ selectedEducation, setSelectedEducation }}
-            >
-              <EducationCard
-                cardKey={0}
-                institution="Singapore Management University"
-                date="2020-2024"
-                degree="Bachelor's of Science (BSc) Information Systems"
-                majors={[
-                  "Digitalization & Cloud Solutions",
-                  "Business Analytics",
-                ]}
-                grade="Magna Cum Laude"
-                achievements={[
-                  "SCIS Dean's List AY2021/22",
-                  "Huawei ICT Competition 2024 (AI Innovation) | APAC Regional Finalists, 3rd place",
-                  "Ninjavan Code Dojo 2023 | Most Feasible Hack",
-                  "Carro x AWS Hackathon 2022 | 8th place",
-                ]}
-              />
-              <EducationCard
-                cardKey={1}
-                institution="Sungkyunkwan University"
-                date="AUG 2023 - DEC 2023"
-                degree="International Student Exchange Programme"
-                majors={["Data Science"]}
-                grade="4.00/4.50"
-                achievements={[]}
-              />
-            </EducationContext.Provider>
+          <EducationContext.Provider
+            value={{ selectedEducation, setSelectedEducation }}
+          >
+            <EducationCard
+              cardKey={0}
+              institution="Singapore Management University"
+              date="2020-2024"
+              degree="Bachelor's of Science (BSc) Information Systems"
+              majors={[
+                "Digitalization & Cloud Solutions",
+                "Business Analytics",
+              ]}
+              grade="Magna Cum Laude"
+              achievements={[
+                "SCIS Dean's List AY2021/22",
+                "Huawei ICT Competition 2024 (AI Innovation) | APAC Regional Finalists, 3rd place",
+                "Ninjavan Code Dojo 2023 | Most Feasible Hack",
+                "Carro x AWS Hackathon 2022 | 8th place",
+              ]}
+            />
+            <EducationCard
+              cardKey={1}
+              institution="Sungkyunkwan University"
+              date="AUG 2023 - DEC 2023"
+              degree="International Student Exchange Programme"
+              majors={["Data Science"]}
+              grade="4.00/4.50"
+              achievements={[]}
+            />
+          </EducationContext.Provider>
         </div>
       </div>
     </>

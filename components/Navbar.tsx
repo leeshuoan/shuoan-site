@@ -60,15 +60,15 @@ const Navbar = () => {
 
               <div className={`hidden sm:flex items-center`}>
                 <div className="ml-8 flex it items-center gap-4">
-                  <Link href="/about" prefetch={true} className='relative group text-shuoan-gray dark:hover:text-shuoan-link hover:text-shuoan-link'>
+                  <Link href="/about" className='relative group text-shuoan-gray dark:hover:text-shuoan-link hover:text-shuoan-link'>
                     <span style={{ height: "1.5px" }} className="absolute w-full  rounded-md bg-shuoan-link bottom-0 left-0 origin-right transform scale-x-0 transition-transform duration-300 ease-in-out  group-hover:origin-left group-hover:scale-x-100"></span>
                     About
                   </Link>
-                  <Link href="/projects" prefetch={true} className=' relative group text-shuoan-gray dark:hover:text-shuoan-link hover:text-shuoan-link'>
+                  <Link href="/projects" className=' relative group text-shuoan-gray dark:hover:text-shuoan-link hover:text-shuoan-link'>
                     <span style={{ height: "1.5px" }} className="absolute w-full  rounded-md bg-shuoan-link bottom-0 left-0 origin-right transform scale-x-0 transition-transform duration-300 ease-in-out  group-hover:origin-left group-hover:scale-x-100"></span>
                     Projects
                   </Link>
-                  <Link href="/blog" prefetch={true} className='relative group text-shuoan-gray dark:hover:text-shuoan-link hover:text-shuoan-link'>
+                  <Link href="/blog" className='relative group text-shuoan-gray dark:hover:text-shuoan-link hover:text-shuoan-link'>
                     <span style={{ height: "1.5px" }} className="absolute w-full  rounded-md bg-shuoan-link bottom-0 left-0 origin-right transform scale-x-0 transition-transform duration-300 ease-in-out  group-hover:origin-left group-hover:scale-x-100"></span>
                     Blog
                   </Link>
