@@ -95,6 +95,7 @@ const Navbar = () => {
                   ref={toggleButtonRef}
                   onClick={toggleMenu}
                   className="text-xl font-bold px-2 py-1 text-black dark:text-shuoan-dark"
+                  aria-label="Toggle menu"
                 >
                   <FaBars />
                 </button>

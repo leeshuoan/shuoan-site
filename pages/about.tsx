@@ -195,11 +195,11 @@ const About = (): JSX.Element => {
               date="JUN 2024 - PRESENT"
               content={[
                 "Maintaining and building the tools used by research analysts globally to write and publish research insights",
-                "Played a key role in migrating a legacy calculation engine service, built on Slang and SecDB, to Python-based AWS Lambda functions, ensuring improved scalability, maintainability, and performance",
-                "Streamlined DevOps workflows by structuring GitLab pipelines to generate and transform OpenAPI specification YAML files into Kong declarative configurations",
-                "Involved in diverse Java development tasks, including creating new services, resolving production bugs, and upgrading Spring versions using OpenRewrite to enhance code quality and maintainability",
+                "Contributed to migrating an legacy SecDB system to AWS using Lambda functions, ECS, and MongoDB Atlas",
+                "Implemented authentication and authorization flows using PKCE with OAuth 2.0, OpenAPI definitions for access control, and policy enforcement via OPA",
+                // "Contributed to a Gen AI project orchestrating LLM calls and OpenSearch vector database queries, built Lambda functions for vector index creation and embedding generation"
               ]}
-              skills={["AWS", "Java", "React", "Terraform"]}
+              skills={["AWS", "Java", "React", "Slang", "MongoDB", "OpenSearch", "Terraform"]}
             />
             <ExperienceCard
               title="Software Engineer Intern"
