@@ -46,7 +46,6 @@ const RoadAccidentDashboard = () => {
             <img
               className="object-scale-down h-full"
               src={image}
-              loading="lazy"
             />
           </SwiperSlide>
         ))}
@@ -68,7 +67,7 @@ const RoadAccidentDashboard = () => {
               onMouseLeave={() => setHoveredIndex(null)}
               onClick={() => openModal(image)}
             >
-              <img className="object-cover h-full" src={image} loading="lazy" />
+              <img className="object-cover h-full" src={image} />
             </div>
           ))}
         </div>
